@@ -1,0 +1,23 @@
+when i increase grid size execution time is increasing 
+
+Model-Based RL
+
+The agent knows (or learns) the environment’s model:
+
+Transition probabilities → what happens when I take an action in a state?
+
+Reward function → what reward do I get?
+
+Then it uses planning (e.g., Value Iteration, Policy Iteration, Dynamic Programming) to compute the optimal policy.
+
+Example: Chess → if you know the rules (model), you can plan moves ahead.
+
+Model-Free RL
+
+The agent does NOT know the model (no transition probabilities, no reward function ahead of time).
+
+It learns directly from experience by trial and error.
+
+Example methods: Q-learning, SARSA, Deep Q-Network (DQN).
+
+Example: Real world robot → doesn’t know physics equations, but learns by trying.
